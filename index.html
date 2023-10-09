@@ -7,14 +7,14 @@
         <div id="first-div">
         <h1>Programming language</h1>
         <ul>
-            <li >JavaScript</li>
-            <li >Kotlin</li>
-            <li >Swift</li>
+            <li id="first-li">JavaScript</li>
+            <li id="second-li">Kotlin</li>
+            <li id="last-li">Swift</li>
         </ul>
         </div>
         <script>
-           let list = document.getElementsByTagName('li')
-           console.log(list[2])
+           let android = document.querySelector("#second-li")
+           android.style.color = "blue"
         </script>
     </body>
 </html>
